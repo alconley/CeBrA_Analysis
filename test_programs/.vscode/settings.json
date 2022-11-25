@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "NiceMatStyle.C": "cpp",
+        "*.rmd": "markdown",
+        "analysis.C": "cpp"
+    }
+}

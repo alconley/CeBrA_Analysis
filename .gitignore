@@ -1,0 +1,17 @@
+/.ipynb_checkpoints
+/.vscode
+/49Ti.root
+/49Ti_Common_Histograms.root
+/49Ti_Deuterons_basic_histo.root
+/49Ti_Deuterons_timecut_histo.root
+/49Ti_Protons_Excited_States_histo.root
+/49Ti_Protons_bands_histo.root
+/49Ti_Protons_basic_histo.root
+/49Ti_Protons_timecut_histo.root
+/49Ti_cebra_EnergyCal.ods
+/49Ti_ddp_Energycal.ods
+/49Ti_x1_cebra.C
+/CeBrA_Intensity.ods
+/fits
+/node_modules
+/old_49Ti_stuff

@@ -1,0 +1,149 @@
+<hdtv version="1.5">
+  <fit peakModel="theuerkauf" integrate="False" likelihood="normal" nParams="2" chi="34.10568648569808">
+    <spectrum name="Array_4880_keV_x1" calibration="-1.000000e+02 1.600000e+01 -1.644777e-14 6.520247e-17 -8.188210e-20" />
+    <regionMarker>
+      <begin>
+        <cal>4686.247621544049</cal>
+        <uncal>299.14047634650257</uncal>
+      </begin>
+      <end>
+        <cal>5021.724301928088</cal>
+        <uncal>320.10776887050463</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>4789.96999999962</cal>
+        <uncal>305.62312499997563</uncal>
+      </position>
+    </peakMarker>
+    <peakMarker>
+      <position>
+        <cal>4880.704999999614</cal>
+        <uncal>311.29406249997515</uncal>
+      </position>
+    </peakMarker>
+    <background nparams="2" chisquare="None" backgroundModel="polynomial">
+      <param npar="0">
+        <value>0.35684960805097826</value>
+        <error>0.1994587544818996</error>
+      </param>
+      <param npar="1">
+        <value>nan</value>
+        <error>nan</error>
+      </param>
+    </background>
+    <peak>
+      <uncal>
+        <pos status="hold">
+          <value>305.62312499997563</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>305.9841492323434</value>
+          <error>26.65962407392348</error>
+        </vol>
+        <width status="equal">
+          <value>4.087482532542176</value>
+          <error>0.04814017250486853</error>
+        </width>
+      </uncal>
+      <cal>
+        <pos status="hold">
+          <value>4789.96999999962</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>305.9841492323434</value>
+          <error>26.65962407392348</error>
+        </vol>
+        <width status="equal">
+          <value>65.39972052067515</value>
+          <error>0.7702427600779085</error>
+        </width>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <pos status="hold">
+          <value>311.29406249997515</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>6071.793032247911</value>
+          <error>80.78367709959348</error>
+        </vol>
+        <width status="equal">
+          <value>4.087482532542176</value>
+          <error>0.04814017250486853</error>
+        </width>
+      </uncal>
+      <cal>
+        <pos status="hold">
+          <value>4880.704999999614</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>6071.793032247911</value>
+          <error>80.78367709959348</error>
+        </vol>
+        <width status="equal">
+          <value>65.39972052067515</value>
+          <error>0.7702427600779069</error>
+        </width>
+      </cal>
+      <extras />
+    </peak>
+    <integral integraltype="tot">
+      <uncal>
+        <pos>
+          <value>311.0083473732578</value>
+          <error>0.02726117138945954</error>
+        </pos>
+        <width>
+          <value>5.187111356417486</value>
+          <error>0.06259830191474774</error>
+        </width>
+        <vol>
+          <value>6529.0</value>
+          <error>80.80222769206304</error>
+        </vol>
+        <skew>
+          <value>-7.369230819417568</value>
+          <error>0.643103418754176</error>
+        </skew>
+      </uncal>
+      <cal>
+        <pos>
+          <value>4876.133557972136</value>
+          <error>0.43617874223135866</error>
+        </pos>
+        <width>
+          <value>82.99378170268119</value>
+          <error>1.0015728306359777</error>
+        </width>
+        <vol>
+          <value>6529.0</value>
+          <error>80.80222769206304</error>
+        </vol>
+      </cal>
+    </integral>
+  </fit>
+</hdtv>
