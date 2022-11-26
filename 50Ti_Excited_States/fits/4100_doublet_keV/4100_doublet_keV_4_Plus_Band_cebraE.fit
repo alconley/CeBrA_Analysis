@@ -1,0 +1,282 @@
+<hdtv version="1.5">
+  <fit peakModel="theuerkauf" integrate="False" likelihood="normal" nParams="2" chi="86.64268354101333">
+    <spectrum name="4100_doublet_kev_4_Plus_Band_cebraE" calibration="1.127056e-10 1.300000e+01 3.255139e-14 -9.567108e-17 9.186788e-20" />
+    <bgMarker>
+      <begin>
+        <cal>1171.1341820491582</cal>
+        <uncal>90.08724477301536</uncal>
+      </begin>
+      <end>
+        <cal>1180.4054476093268</cal>
+        <uncal>90.8004190468745</uncal>
+      </end>
+    </bgMarker>
+    <bgMarker>
+      <begin>
+        <cal>1810.8515057008099</cal>
+        <uncal>139.2962696692952</uncal>
+      </begin>
+      <end>
+        <cal>1815.9085596427203</cal>
+        <uncal>139.68527381867293</uncal>
+      </end>
+    </bgMarker>
+    <regionMarker>
+      <begin>
+        <cal>1814.2228749954168</cal>
+        <uncal>139.55560576888035</uncal>
+      </begin>
+      <end>
+        <cal>1156.8058625470796</cal>
+        <uncal>88.98506634977853</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>1472.0000000002863</cal>
+        <uncal>113.23076923079428</uncal>
+      </position>
+    </peakMarker>
+    <peakMarker>
+      <position>
+        <cal>1497.0000000002944</cal>
+        <uncal>115.15384615387178</uncal>
+      </position>
+    </peakMarker>
+    <peakMarker>
+      <position>
+        <cal>1553.0000000003126</cal>
+        <uncal>119.46153846156537</uncal>
+      </position>
+    </peakMarker>
+    <background nparams="2" chisquare="0.0" backgroundModel="polynomial">
+      <param npar="0">
+        <value>0.0</value>
+        <error>0.0</error>
+      </param>
+      <param npar="1">
+        <value>0.0</value>
+        <error>0.0</error>
+      </param>
+    </background>
+    <peak>
+      <uncal>
+        <pos status="hold">
+          <value>113.23076923079428</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>289.55881031951776</value>
+          <error>29.313194494374745</error>
+        </vol>
+        <width status="equal">
+          <value>3.7441536156448967</value>
+          <error>0.21598273602854628</error>
+        </width>
+      </uncal>
+      <cal>
+        <pos status="hold">
+          <value>1472.0000000002863</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>289.55881031951776</value>
+          <error>29.313194494374745</error>
+        </vol>
+        <width status="equal">
+          <value>48.67399700338501</value>
+          <error>2.807775568371164</error>
+        </width>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <pos status="hold">
+          <value>115.15384615387178</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>394.5493767336773</value>
+          <error>36.964778606014924</error>
+        </vol>
+        <width status="equal">
+          <value>3.7441536156448967</value>
+          <error>0.21598273602854628</error>
+        </width>
+      </uncal>
+      <cal>
+        <pos status="hold">
+          <value>1497.0000000002944</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>394.5493767336773</value>
+          <error>36.964778606014924</error>
+        </vol>
+        <width status="equal">
+          <value>48.67399700338501</value>
+          <error>2.80777556837117</error>
+        </width>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <pos status="hold">
+          <value>119.46153846156537</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>268.43746984886656</value>
+          <error>22.190773421259077</error>
+        </vol>
+        <width status="equal">
+          <value>3.7441536156448967</value>
+          <error>0.21598273602854628</error>
+        </width>
+      </uncal>
+      <cal>
+        <pos status="hold">
+          <value>1553.0000000003126</value>
+          <error>0.0</error>
+        </pos>
+        <sh status="none" />
+        <sw status="hold" />
+        <tl status="none" />
+        <tr status="none" />
+        <vol status="free">
+          <value>268.43746984886656</value>
+          <error>22.190773421259077</error>
+        </vol>
+        <width status="equal">
+          <value>48.67399700338524</value>
+          <error>2.807775568371182</error>
+        </width>
+      </cal>
+      <extras />
+    </peak>
+    <integral integraltype="tot">
+      <uncal>
+        <pos>
+          <value>115.67857142857143</value>
+          <error>0.09285475621694235</error>
+        </pos>
+        <width>
+          <value>7.03787835134855</value>
+          <error>0.13115322984932937</error>
+        </width>
+        <vol>
+          <value>1036.0</value>
+          <error>32.18695387886216</error>
+        </vol>
+        <skew>
+          <value>-2.677973071468023</value>
+          <error>1.508301067335374</error>
+        </skew>
+      </uncal>
+      <cal>
+        <pos>
+          <value>1503.82142857139</value>
+          <error>1.2071118308202806</error>
+        </pos>
+        <width>
+          <value>91.49241856753338</value>
+          <error>1.7049919880413238</error>
+        </width>
+        <vol>
+          <value>1036.0</value>
+          <error>32.18695387886216</error>
+        </vol>
+      </cal>
+    </integral>
+    <integral integraltype="bg">
+      <uncal>
+        <pos>
+          <value>nan</value>
+          <error>nan</error>
+        </pos>
+        <width>
+          <value>nan</value>
+          <error>nan</error>
+        </width>
+        <vol>
+          <value>0.0</value>
+          <error>21457.15474539857</error>
+        </vol>
+        <skew>
+          <value>nan</value>
+          <error>nan</error>
+        </skew>
+      </uncal>
+      <cal>
+        <pos>
+          <value>nan</value>
+          <error>nan</error>
+        </pos>
+        <width>
+          <value>nan</value>
+          <error>nan</error>
+        </width>
+        <vol>
+          <value>0.0</value>
+          <error>21457.15474539857</error>
+        </vol>
+      </cal>
+    </integral>
+    <integral integraltype="sub">
+      <uncal>
+        <pos>
+          <value>115.67857142857143</value>
+          <error>305.86851997618686</error>
+        </pos>
+        <width>
+          <value>7.03787835134855</value>
+          <error>2343.114054813729</error>
+        </width>
+        <vol>
+          <value>1036.0</value>
+          <error>21457.17888651675</error>
+        </vol>
+        <skew>
+          <value>-2.677973071468023</value>
+          <error>125497.60041819073</error>
+        </skew>
+      </uncal>
+      <cal>
+        <pos>
+          <value>1503.82142857139</value>
+          <error>3976.290759690528</error>
+        </pos>
+        <width>
+          <value>91.49241856753338</value>
+          <error>30460.48271257923</error>
+        </width>
+        <vol>
+          <value>1036.0</value>
+          <error>21457.17888651675</error>
+        </vol>
+      </cal>
+    </integral>
+  </fit>
+</hdtv>

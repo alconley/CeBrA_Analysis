@@ -410,7 +410,6 @@ fp_filter_6123_keV = Excited_State(Proton_Path, "SPSTree", "Protons" , 5, "x1", 
 Excited_States_with_Bands(Proton_Path, "SPSTree", "Protons" , 5, "x1", ECal_Focal_Para_Protons, ECal_Focal_Histo_Protons, cebraTimeGate_Protons,"6123",Ti49_GS_Band_Filter,fp_filter_6123_keV,"6123_kev_GS_Band",output_excited_states_protons)
 Excited_States_with_Bands(Proton_Path, "SPSTree", "Protons" , 5, "x1", ECal_Focal_Para_Protons, ECal_Focal_Histo_Protons, cebraTimeGate_Protons,"6123",Ti49_2_Plus_Band_Filter,fp_filter_6123_keV,"6123_kev_2_Plus_Band",output_excited_states_protons)
 Excited_States_with_Bands(Proton_Path, "SPSTree", "Protons" , 5, "x1", ECal_Focal_Para_Protons, ECal_Focal_Histo_Protons, cebraTimeGate_Protons,"6123",Ti49_4_Plus_Band_Filter,fp_filter_6123_keV,"6123_kev_4_Plus_Band",output_excited_states_protons)
-
  
 output_excited_states_protons.Close()
 
